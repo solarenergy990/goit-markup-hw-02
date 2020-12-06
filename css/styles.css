@@ -1,0 +1,78 @@
+:root {
+  --primary-text-colour: #757575;
+  --secondary-text-colour: #212121;
+  --title-text-colour: #212121;
+  --accent: #2196f3;
+  --hero-footer-colour: #2f303a;
+  --primary-bcg-colour: #ffffff;
+  --hideout-colour: rgba;
+}
+body {
+  background-color: var(--primary-bcg-colour);
+}
+
+.list {
+  list-style: none;
+}
+
+/* site nav*/
+.site-nav .link {
+  color: var(--secondary-text-colour);
+}
+.logo {
+  color: var(--secondary-text-colour);
+}
+.auth-nav {
+  color: var(--primary-text-colour);
+  text-decoration: none;
+}
+.auth-nav:active,
+.auth-nav:hover,
+.auth-nav:focus {
+  color: var(--accent);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+/* hero */
+.hero-title {
+  color: var(--white);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-colour);
+}
+.section {
+  color: var(--primary-text-colour);
+}
+
+.features-title {
+  color: var(--secondary-text-colour);
+}
+.list-title {
+  color: var(--title-text-colour);
+}
+.hidden {
+  color: rgba(255, 255, 255, 0);
+}
+
+/* button to work on*/
+.button {
+  color: var(--secondary-text-colour);
+  background-color: var(--primary-bcg-colour);
+}
+.button:hover,
+.button:focus {
+  color: var(--accent);
+}
+.button .primary {
+  color: var(--primary-bcg-colour);
+  background-color: var(--accent);
+}
+.button .secondary {
+  color: var(--accent);
+  background-color: var(--primary-bcg-colour);
+}
