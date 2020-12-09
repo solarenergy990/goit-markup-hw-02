@@ -6,6 +6,7 @@
   --hero-footer-colour: #2f303a;
   --main-white: #ffffff;
   --footer-link-colour: rgba(255, 255, 255, 0.6);
+
   --secondary-font-family: Raleway, sans-serif;
   --primary-text-weight: 400;
   --primary-text-size: 14px;
@@ -58,7 +59,11 @@ h6 {
   color: var(--accent);
 }
 
-.auth-nav-link:active,
+[aria-current]:not([aria-current="false"]) {
+  color: var(--accent);
+}
+
+.auth-nav-link:focus,
 .auth-nav-link:hover {
   color: var(--accent);
 }
