@@ -28,9 +28,25 @@ h6 {
 
 .list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-inline-start: 0;
 }
 
+/*Page header*/
+.page-header {
+  background-color: #2f303a;
+}
 /* site nav*/
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid chocolate;
+}
 .site-nav .link {
   color: var(--secondary-text-colour);
 
@@ -79,7 +95,8 @@ h6 {
 /* hero */
 .hero {
   background-color: #2f303a;
-  /*just to show title*/
+  margin-left: 0;
+  margin-right: 0;
 }
 .hero-title {
   color: var(--main-white);
@@ -90,6 +107,9 @@ h6 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-top: 0;
+  padding-top: 200px;
 }
 .hero-button {
   background-color: var(--accent);
@@ -103,6 +123,10 @@ h6 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  border: ;
+  border-radius: 4px;
+  padding-top: 30px;
 }
 /* section */
 .section-title {
@@ -149,6 +173,8 @@ h6 {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+
+  border-radius: 4px;
 }
 .button:focus,
 .button:hover {
